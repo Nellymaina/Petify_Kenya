@@ -121,3 +121,36 @@
 .nxt-btn{
   right:0;
 }
+.pre-btn img, .nxt-btn img{
+  opacity:0.2;
+}
+.pre-btn:hover img, .nxt-btn:hover img{
+  opacity:1;
+}
+.categories-container{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:10px;
+}
+.categories{
+  position:relative;
+}
+.categories img{
+  width:50%;
+  height:50%;
+  object-fit:cover;  
+}
+.categories p{
+  position:absolute;
+  top:50%;
+  transform: trasnslateX(-50%, -50%);
+  text-align:center;
+  color:#fff:
+  font-size: 50px;
+  text-transform:capitalize;
+}
+.categories:nth-child(6){
+  grid-column:span 4;
+  margin-botton:10px
+}
